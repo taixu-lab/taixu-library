@@ -1,0 +1,3 @@
+# Signed catalogs must retain their exact bytes on Windows and in Git.
+catalog*.json -text
+catalog*.json.sig -text

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "revision": 5,
+  "plugins": [
+    {
+      "pluginId": "legacy.tool-qemu-x86-64-compat",
+      "toolId": "qemu-x86-64-compat",
+      "name": "QEMU x86_64 用户态兼容层",
+      "description": "仅包含 ARM64 QEMU x86_64 user-mode 模拟器与最小 x86_64 RootFS 的离线兼容插件。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 46567106,
+          "sha256": "d4c16ccba35b64716d46e5e454d6e5a53715c99acb57ea1476c74086fd4da419",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/qemu-x86-64-compat-v1.0.0/qemu-x86-64-compat-1.0.0.txplugin",
+              "size": 46567106,
+              "sha256": "d4c16ccba35b64716d46e5e454d6e5a53715c99acb57ea1476c74086fd4da419",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/qemu-x86-64-compat-v1.0.0/qemu-x86-64-compat-1.0.0.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "legacy.tool-cc-switch",
+      "toolId": "cc-switch",
+      "name": "CC-Switch 智能体中枢",
+      "description": "Claude Code、OpenClaw、Hermes Agent 与 Codex 统一多模型切源、版本管理与本地协议代理中枢",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 7103036,
+          "sha256": "50f61a05a7475f2a714362605eead704797bea0708c8987c4441453882a3105a",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/cc-switch-v1.0.1/cc-switch-1.0.1.txplugin",
+              "size": 7103036,
+              "sha256": "50f61a05a7475f2a714362605eead704797bea0708c8987c4441453882a3105a",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/cc-switch-v1.0.1/cc-switch-1.0.1.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "legacy.tool-android-skills",
+      "toolId": "android-skills",
+      "name": "Android CLI 与官方技能",
+      "description": "内置 Google Android CLI（android 命令；含引导器与 85.63 MiB 的 android-cli 真身，离线可用、自带 JRE）与 33 个官方 Android Skills（google/android/skills，Apache-2.0），并把技能落到 /attachments/skills/android-skills 供 Agent 自动发现",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 91359629,
+          "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin",
+              "size": 91359629,
+              "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "community.github-web",
+      "toolId": "github-web",
+      "name": "GitHub · 配置与仓库",
+      "description": "连接 GitHub，管理 Token、SSH、仓库与 PR。请先安装后端插件并在工具中心启动 GitHub 服务；关闭此页面不停止后台任务。写入须逐次确认。",
+      "execution": "WEB",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 637,
+          "sha256": "8a4796fec038186ab033ee75dd46b09a45ae594ebeeb8428c2eafd81cfeadf88",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-web-v1.0.1/github-web-1.0.1.txplugin",
+              "size": 637,
+              "sha256": "8a4796fec038186ab033ee75dd46b09a45ae594ebeeb8428c2eafd81cfeadf88",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-web-v1.0.1/github-web-1.0.1.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

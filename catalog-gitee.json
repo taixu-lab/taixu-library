@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 5,
+  "revision": 7,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -120,6 +120,68 @@
               "sha256": "8a4796fec038186ab033ee75dd46b09a45ae594ebeeb8428c2eafd81cfeadf88",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-web-v1.0.1/github-web-1.0.1.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "community.agent2api",
+      "toolId": "agent2api",
+      "name": "Agent2API",
+      "description": "本地 OpenAI 兼容网关，含专用 Web 管理页、管理员创建与重设。原版面板可用外部浏览器打开；支持自启动与持续运行。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "3.0.9",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 10847582,
+          "sha256": "3293d352819790813a53e688fc27b130c0b3a82a5e82233b93a1dc253b18caac",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/agent2api-v3.0.9/agent2api-3.0.9.txplugin",
+              "size": 10847582,
+              "sha256": "3293d352819790813a53e688fc27b130c0b3a82a5e82233b93a1dc253b18caac",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/agent2api-v3.0.9/agent2api-3.0.9.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "legacy.tool-rtk-suite-offline",
+      "toolId": "rtk-suite-offline",
+      "name": "RTK 终端命令优化器",
+      "description": "太墟内置 Agent 终端命令重写优化套件（ARM64 Linux 离线包），支持智能重写 git/cargo/find/grep 等命令并压缩输出，减少大体积结果的 Token 消耗。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 4205336,
+          "sha256": "1d23efb7ee00a1451fe301469965930fdd0b097fb68847395123497af5cd00cd",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/rtk-suite-offline-v1.0.0/rtk-suite-offline-1.0.0.txplugin",
+              "size": 4205336,
+              "sha256": "1d23efb7ee00a1451fe301469965930fdd0b097fb68847395123497af5cd00cd",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/rtk-suite-offline-v1.0.0/rtk-suite-offline-1.0.0.txplugin"
               }
             }
           ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 8,
+  "revision": 10,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -183,6 +183,62 @@
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/rtk-suite-offline-v1.0.0/rtk-suite-offline-1.0.0.txplugin"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "community.lazygit",
+      "toolId": "lazygit",
+      "name": "Lazygit · 终端 Git",
+      "description": "原生 PTY 中运行 ARM64 Lazygit；在仓库目录启动，支持显式复用 GitHub 插件配置。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "0.66.2",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 6511239,
+          "sha256": "f7be86b561fadc2f548414ba3f659f5d07867b6f83da2862f3940ef69d439263",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/lazygit-v0.66.2/lazygit-0.66.2.txplugin",
+              "size": 6511239,
+              "sha256": "f7be86b561fadc2f548414ba3f659f5d07867b6f83da2862f3940ef69d439263"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "community.local-rag",
+      "toolId": "local-rag",
+      "name": "工作区 Local-RAG · 离线检索",
+      "description": "SQLite FTS5 离线项目检索，支持中英文、增量批次和带行号的文件指纹引用；需预装 Python3/FTS5。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 9157,
+          "sha256": "e88503da85ddfe54853bab545b06724aab7b700459a65f695d068b4180b1df52",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/local-rag-v0.1.0/local-rag-0.1.0.txplugin",
+              "size": 9157,
+              "sha256": "e88503da85ddfe54853bab545b06724aab7b700459a65f695d068b4180b1df52"
             }
           ]
         }

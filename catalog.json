@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 11,
+  "revision": 14,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -89,37 +89,6 @@
               "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "pluginId": "community.github-web",
-      "toolId": "github-web",
-      "name": "GitHub · 配置与仓库",
-      "description": "连接 GitHub，管理 Token、SSH、仓库与 PR。请先安装后端插件并在工具中心启动 GitHub 服务；关闭此页面不停止后台任务。写入须逐次确认。",
-      "execution": "WEB",
-      "releases": [
-        {
-          "version": "1.0.1",
-          "channel": "stable",
-          "platform": "linux-arm64",
-          "packageSchema": 2,
-          "pluginApi": {
-            "minimum": 1,
-            "maximum": 1
-          },
-          "size": 637,
-          "sha256": "8a4796fec038186ab033ee75dd46b09a45ae594ebeeb8428c2eafd81cfeadf88",
-          "parts": [
-            {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/github-web-v1.0.1/github-web-1.0.1.txplugin",
-              "size": 637,
-              "sha256": "8a4796fec038186ab033ee75dd46b09a45ae594ebeeb8428c2eafd81cfeadf88",
-              "mirrors": {
-                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-web-v1.0.1/github-web-1.0.1.txplugin"
               }
             }
           ]
@@ -244,6 +213,59 @@
               "sha256": "e88503da85ddfe54853bab545b06724aab7b700459a65f695d068b4180b1df52",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/local-rag-v0.1.0/local-rag-0.1.0.txplugin"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "community.github",
+      "toolId": "github",
+      "name": "GitHub · 配置与仓库",
+      "description": "官方 ARM64 gh、Git 与内置网页控制端。安装后在插件详情启动服务并打开管理页面，无需另装网页插件。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.0.1",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 13277928,
+          "sha256": "b51c27e89f048cf3a8126fb3fe7af55417a751ece3b176392f84870e016a0db1",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/github-v1.0.1/github-1.0.1.txplugin",
+              "size": 13277928,
+              "sha256": "b51c27e89f048cf3a8126fb3fe7af55417a751ece3b176392f84870e016a0db1",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-v1.0.1/github-1.0.1.txplugin"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.2",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 13278064,
+          "sha256": "82184f4ce912df76f430b08ed3bf42faf0309cfe2a0bc15086f830d348d7166f",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/github-v1.0.2/github-1.0.2.txplugin",
+              "size": 13278064,
+              "sha256": "82184f4ce912df76f430b08ed3bf42faf0309cfe2a0bc15086f830d348d7166f",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-v1.0.2/github-1.0.2.txplugin"
               }
             }
           ]

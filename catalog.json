@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 14,
+  "revision": 15,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -120,6 +120,28 @@
               "sha256": "3293d352819790813a53e688fc27b130c0b3a82a5e82233b93a1dc253b18caac",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/agent2api-v3.0.9/agent2api-3.0.9.txplugin"
+              }
+            }
+          ]
+        },
+        {
+          "version": "3.4.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 2,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 14469867,
+          "sha256": "128d22e1fe84df7ba83310573a67eb29f904177ee4d583717d2ca7d7560af069",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/agent2api-v3.4.0/agent2api-3.4.0.txplugin",
+              "size": 14469867,
+              "sha256": "128d22e1fe84df7ba83310573a67eb29f904177ee4d583717d2ca7d7560af069",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/agent2api-v3.4.0/agent2api-3.4.0.txplugin"
               }
             }
           ]

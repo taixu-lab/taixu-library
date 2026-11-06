@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 16,
+  "revision": 17,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -68,7 +68,7 @@
       "pluginId": "legacy.tool-android-skills",
       "toolId": "android-skills",
       "name": "Android CLI 与官方技能",
-      "description": "内置 Google Android CLI（android 命令；含引导器与 85.63 MiB 的 android-cli 真身，离线可用、自带 JRE）与 33 个官方 Android Skills（google/android/skills，Apache-2.0），并把技能落到 /attachments/skills/android-skills 供 Agent 自动发现",
+      "description": "内置 Google Android CLI（android 命令；含引导器与 85.63 MiB 的 android-cli 真身，离线可用、自带 JRE）与 36 个官方 Android Skills（google/android/skills，Apache-2.0），并把技能落到 /attachments/skills/android-skills 供 Agent 自动发现",
       "execution": "PROCESS",
       "releases": [
         {
@@ -89,6 +89,28 @@
               "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin"
+              }
+            }
+          ]
+        },
+        {
+          "version": "1.0.1",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 95280106,
+          "sha256": "93a7a0ed23eff3f1986abbc89baf2af42c4ead32d5616e9710b154f2b884668d",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/android-skills-v1.0.1/android-skills-1.0.1.txplugin",
+              "size": 95280106,
+              "sha256": "93a7a0ed23eff3f1986abbc89baf2af42c4ead32d5616e9710b154f2b884668d",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/android-skills-v1.0.1/android-skills-1.0.1.txplugin"
               }
             }
           ]

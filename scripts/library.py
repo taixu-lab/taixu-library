@@ -283,7 +283,7 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     k = sub.add_parser('keygen'); k.add_argument('--private-key', type=Path, required=True)
     p = sub.add_parser('prepare'); p.add_argument('package', type=Path); p.add_argument('--private-key', type=Path, required=True)
-    p.add_argument('--repo', default='wkbin/taixu-library'); p.add_argument('--chunk-mib', type=int, default=512)
+    p.add_argument('--repo', default='taixu-lab/taixu-library'); p.add_argument('--chunk-mib', type=int, default=512)
     u = sub.add_parser('publish'); u.add_argument('directory', type=Path)
     u.add_argument('--private-key', type=Path); u.add_argument('--github-only', action='store_true')
     m = sub.add_parser('sync-gitee'); m.add_argument('--private-key', type=Path, default=Path.home() / '.codex/keys/taixu-library-signing.pem')

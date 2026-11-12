@@ -1,7 +1,7 @@
 """Configure one Git checkout to push the same commits to GitHub and Gitee."""
 import subprocess
 
-GITHUB = 'https://github.com/wkbin/taixu-library.git'
+GITHUB = 'https://github.com/taixu-lab/taixu-library.git'
 GITEE = 'https://gitee.com/wang_ke_bin/taixu-library.git'
 
 

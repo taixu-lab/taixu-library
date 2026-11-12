@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 18,
+  "revision": 19,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -22,7 +22,7 @@
           "sha256": "d4c16ccba35b64716d46e5e454d6e5a53715c99acb57ea1476c74086fd4da419",
           "parts": [
             {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/qemu-x86-64-compat-v1.0.0/qemu-x86-64-compat-1.0.0.txplugin",
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/qemu-x86-64-compat-v1.0.0/qemu-x86-64-compat-1.0.0.txplugin",
               "size": 46567106,
               "sha256": "d4c16ccba35b64716d46e5e454d6e5a53715c99acb57ea1476c74086fd4da419",
               "mirrors": {
@@ -53,7 +53,7 @@
           "sha256": "50f61a05a7475f2a714362605eead704797bea0708c8987c4441453882a3105a",
           "parts": [
             {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/cc-switch-v1.0.1/cc-switch-1.0.1.txplugin",
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/cc-switch-v1.0.1/cc-switch-1.0.1.txplugin",
               "size": 7103036,
               "sha256": "50f61a05a7475f2a714362605eead704797bea0708c8987c4441453882a3105a",
               "mirrors": {
@@ -103,7 +103,7 @@
           "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
           "parts": [
             {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin",
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/android-skills-v1.0.0/android-skills-1.0.0.txplugin",
               "size": 91359629,
               "sha256": "3669bc077b300e91f82d7ad5de285b08f9d2c6b8d6f899f5c84c2c601c0f3506",
               "mirrors": {
@@ -156,7 +156,7 @@
           "sha256": "3293d352819790813a53e688fc27b130c0b3a82a5e82233b93a1dc253b18caac",
           "parts": [
             {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/agent2api-v3.0.9/agent2api-3.0.9.txplugin",
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/agent2api-v3.0.9/agent2api-3.0.9.txplugin",
               "size": 10847582,
               "sha256": "3293d352819790813a53e688fc27b130c0b3a82a5e82233b93a1dc253b18caac",
               "mirrors": {
@@ -231,7 +231,7 @@
           "sha256": "1d23efb7ee00a1451fe301469965930fdd0b097fb68847395123497af5cd00cd",
           "parts": [
             {
-              "url": "https://github.com/wkbin/taixu-library/releases/download/rtk-suite-offline-v1.0.0/rtk-suite-offline-1.0.0.txplugin",
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/rtk-suite-offline-v1.0.0/rtk-suite-offline-1.0.0.txplugin",
               "size": 4205336,
               "sha256": "1d23efb7ee00a1451fe301469965930fdd0b097fb68847395123497af5cd00cd",
               "mirrors": {

@@ -2,7 +2,7 @@
 
 太墟 PROCESS / WEB 插件分发仓库，兼容已有 v1 PROCESS 包和 v2 PROCESS/WEB 包。Code 保存签名目录、文档和脚本，软件包放 Releases，大包不提交到 Git。每个插件独立 tag，例如 `github-v1.0.2`，不使用仓库级 latest 判断插件版本。
 
-GitHub：`wkbin/taixu-library`；Gitee：`wang_ke_bin/taixu-library`。两个渠道均仅发布不超过 **96 MiB** 的小插件；Android 全栈开发环境等大包保留在本地，不上传、不通过切片绕过限制。
+GitHub：`taixu-lab/taixu-library`；Gitee：`wang_ke_bin/taixu-library`。两个渠道均仅发布不超过 **96 MiB** 的小插件；Android 全栈开发环境等大包保留在本地，不上传、不通过切片绕过限制。
 
 两个渠道分别读取 `catalog.json`、`catalog-gitee.json`，各有 `.sig` 签名和独立递增 revision，使用相同 APK 固定公钥。目录只登记该渠道已经上传并校验的附件；GitHub 尚未发布的包不会因为已经发布到 Gitee 就被标为 GitHub 可下载。
 

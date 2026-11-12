@@ -32,7 +32,7 @@ class LibraryTest(unittest.TestCase):
         self.temp.cleanup()
 
     def prepare(self):
-        return library.prepare(self.package, self.private, 'wkbin/taixu-library', 1)
+        return library.prepare(self.package, self.private, 'taixu-lab/taixu-library', 1)
 
     def test_single_file_signature_and_no_index_mutation(self):
         out = self.prepare()

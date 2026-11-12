@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 21,
+  "revision": 22,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -377,6 +377,34 @@
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/github-v1.0.2/github-1.0.2.txplugin"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pluginId": "legacy.tool-llama-cpp",
+      "toolId": "llama-cpp",
+      "name": "llama.cpp 本地推理引擎",
+      "description": "ARM64 Linux 沙箱离线推理引擎，内置官方 llama.cpp v0.9.0（b12110），支持 LFM3 等 GGUF 模型及 OpenAI 兼容接口。",
+      "execution": "PROCESS",
+      "releases": [
+        {
+          "version": "1.2.0",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 18567916,
+          "sha256": "59a7de62496890988672c251ad92d99b40054826e2b400d326fe798540437ef3",
+          "parts": [
+            {
+              "url": "https://github.com/taixu-lab/taixu-library/releases/download/llama-cpp-v1.2.0/llama-cpp-1.2.0.txplugin",
+              "size": 18567916,
+              "sha256": "59a7de62496890988672c251ad92d99b40054826e2b400d326fe798540437ef3"
             }
           ]
         }

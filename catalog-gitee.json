@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 14,
+  "revision": 15,
   "plugins": [
     {
       "pluginId": "legacy.tool-qemu-x86-64-compat",
@@ -58,6 +58,28 @@
               "sha256": "50f61a05a7475f2a714362605eead704797bea0708c8987c4441453882a3105a",
               "mirrors": {
                 "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/cc-switch-v1.0.1/cc-switch-1.0.1.txplugin"
+              }
+            }
+          ]
+        },
+        {
+          "version": "4.0.30",
+          "channel": "stable",
+          "platform": "linux-arm64",
+          "packageSchema": 1,
+          "pluginApi": {
+            "minimum": 1,
+            "maximum": 1
+          },
+          "size": 14332463,
+          "sha256": "7aec56016cd28a5637e19944baf2af3fe888ded2bece22de63ff7bbdb4047066",
+          "parts": [
+            {
+              "url": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/cc-switch-v4.0.30/cc-switch-4.0.30.txplugin",
+              "size": 14332463,
+              "sha256": "7aec56016cd28a5637e19944baf2af3fe888ded2bece22de63ff7bbdb4047066",
+              "mirrors": {
+                "GITEE": "https://gitee.com/wang_ke_bin/taixu-library/releases/download/cc-switch-v4.0.30/cc-switch-4.0.30.txplugin"
               }
             }
           ]
